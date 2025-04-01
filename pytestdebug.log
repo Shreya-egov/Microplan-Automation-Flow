@@ -1,0 +1,654 @@
+versions pytest-7.4.4, python-3.12.3.final.0
+cwd=/home/shreya-kumar/Microplan
+args=('testCases/setupMicroplan.py', '--debug')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x70f263836ba0>
+    pytest_plugin_registered [hook]
+        plugin: <Session Microplan exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x70f263836ba0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x70f2628d2780>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x70f2629eade0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x70f263836ba0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/usr/lib/python3/dist-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/usr/lib/python3/dist-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/usr/lib/python3/dist-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/usr/lib/python3/dist-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/usr/lib/python3/dist-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/usr/lib/python3/dist-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/usr/lib/python3/dist-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/usr/lib/python3/dist-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/usr/lib/python3/dist-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/usr/lib/python3/dist-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/usr/lib/python3/dist-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/usr/lib/python3/dist-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/usr/lib/python3/dist-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/usr/lib/python3/dist-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/usr/lib/python3/dist-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/usr/lib/python3/dist-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/usr/lib/python3/dist-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/usr/lib/python3/dist-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/usr/lib/python3/dist-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/usr/lib/python3/dist-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/usr/lib/python3/dist-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/usr/lib/python3/dist-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/usr/lib/python3/dist-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/usr/lib/python3/dist-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/usr/lib/python3/dist-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/usr/lib/python3/dist-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/usr/lib/python3/dist-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/usr/lib/python3/dist-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/usr/lib/python3/dist-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/usr/lib/python3/dist-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/usr/lib/python3/dist-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/usr/lib/python3/dist-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'testCases.conftest' from '/home/shreya-kumar/Microplan/testCases/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x70f2628d2780>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x70f2629eade0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x70f2628d2870>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x70f26290c770>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x70f263836ba0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/usr/lib/python3/dist-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/usr/lib/python3/dist-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/usr/lib/python3/dist-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/usr/lib/python3/dist-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/usr/lib/python3/dist-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/usr/lib/python3/dist-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/usr/lib/python3/dist-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/usr/lib/python3/dist-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/usr/lib/python3/dist-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/usr/lib/python3/dist-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/usr/lib/python3/dist-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.legacypath' from '/usr/lib/python3/dist-packages/_pytest/legacypath.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/usr/lib/python3/dist-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/usr/lib/python3/dist-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/usr/lib/python3/dist-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/usr/lib/python3/dist-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/usr/lib/python3/dist-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/usr/lib/python3/dist-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/usr/lib/python3/dist-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/usr/lib/python3/dist-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/usr/lib/python3/dist-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/usr/lib/python3/dist-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/usr/lib/python3/dist-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/usr/lib/python3/dist-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/usr/lib/python3/dist-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/usr/lib/python3/dist-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/usr/lib/python3/dist-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/usr/lib/python3/dist-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python_path' from '/usr/lib/python3/dist-packages/_pytest/python_path.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/usr/lib/python3/dist-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/usr/lib/python3/dist-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/usr/lib/python3/dist-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='utf-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'testCases.conftest' from '/home/shreya-kumar/Microplan/testCases/conftest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x70f2628d2780>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x70f2629eade0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <class '_pytest.legacypath.LegacyTmpdirPlugin'>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x70f2628d2870>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x70f26290c770>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x70f263208bf0>
+          manager: <_pytest.config.PytestPluginManager object at 0x70f26348f200>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x70f263836ba0>
+          start_path: /home/shreya-kumar/Microplan
+          startdir: /home/shreya-kumar/Microplan
+      finish pytest_report_header --> [['rootdir: /home/shreya-kumar/Microplan'], ['using: pytest-7.4.4']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['testCases/setupMicroplan.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (PosixPath('/home/shreya-kumar/Microplan/testCases/setupMicroplan.py'), []) [collection]
+            pytest_ignore_collect [hook]
+                config: <_pytest.config.Config object at 0x70f263836ba0>
+                collection_path: /home/shreya-kumar/Microplan/testCases/__init__.py
+                path: /home/shreya-kumar/Microplan/testCases/__init__.py
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                parent: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                file_path: /home/shreya-kumar/Microplan/testCases/__init__.py
+                path: /home/shreya-kumar/Microplan/testCases/__init__.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                  module_path: /home/shreya-kumar/Microplan/testCases/__init__.py
+                  path: /home/shreya-kumar/Microplan/testCases/__init__.py
+              finish pytest_pycollect_makemodule --> <Package testCases> [hook]
+            finish pytest_collect_file --> [<Package testCases>] [hook]
+            pytest_collect_file [hook]
+                parent: <Package testCases>
+                file_path: /home/shreya-kumar/Microplan/testCases/setupMicroplan.py
+                path: /home/shreya-kumar/Microplan/testCases/setupMicroplan.py
+              pytest_pycollect_makemodule [hook]
+                  parent: <Package testCases>
+                  module_path: /home/shreya-kumar/Microplan/testCases/setupMicroplan.py
+                  path: /home/shreya-kumar/Microplan/testCases/setupMicroplan.py
+              finish pytest_pycollect_makemodule --> <Module setupMicroplan.py> [hook]
+            finish pytest_collect_file --> [<Module setupMicroplan.py>] [hook]
+          matchnodes [<Module setupMicroplan.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module setupMicroplan.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module setupMicroplan.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Module setupMicroplan.py>
+      find_module called for: testCases.setupMicroplan [assertion]
+      matched test file (was specified on cmdline): '/home/shreya-kumar/Microplan/testCases/setupMicroplan.py' [assertion]
+      found cached rewritten pyc for /home/shreya-kumar/Microplan/testCases/setupMicroplan.py [assertion]
+      early skip of rewriting module: pageobjects [assertion]
+      early skip of rewriting module: pageobjects.Loginpage [assertion]
+      early skip of rewriting module: selenium.webdriver.support.ui [assertion]
+      early skip of rewriting module: selenium.webdriver.support.select [assertion]
+      early skip of rewriting module: selenium.webdriver.support.wait [assertion]
+      early skip of rewriting module: selenium.webdriver.support.expected_conditions [assertion]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module setupMicroplan.py>
+            name: @py_builtins
+            obj: <module 'builtins' (built-in)>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module setupMicroplan.py>
+            name: @pytest_ar
+            obj: <module '_pytest.assertion.rewrite' from '/usr/lib/python3/dist-packages/_pytest/assertion/rewrite.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module setupMicroplan.py>
+            name: pytest
+            obj: <module 'pytest' from '/usr/lib/python3/dist-packages/pytest/__init__.py'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module setupMicroplan.py>
+            name: Loginpage
+            obj: <class 'pageobjects.Loginpage.Loginpage'>
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Module setupMicroplan.py>
+            name: TestLogin
+            obj: <class 'testCases.setupMicroplan.TestLogin'>
+        finish pytest_pycollect_makeitem --> <Class TestLogin> [hook]
+      finish pytest_make_collect_report --> <CollectReport 'testCases/setupMicroplan.py' lenresult=1 outcome='passed'> [hook]
+    genitems <Class TestLogin> [collection]
+      pytest_collectstart [hook]
+          collector: <Class TestLogin>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_report [hook]
+          collector: <Class TestLogin>
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: baseURL
+            obj: https://unified-qa.digit.org/microplan-ui/employee/user/login
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: username
+            obj: MPADMIN
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: password
+            obj: eGov@1234
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: country_name
+            obj: MBAZI HIGHLANDS
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: IRSCT_name
+            obj: IRS Campaign
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: countrydrop
+            obj: Mozambique
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: provincedrop
+            obj: Cabo
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: districtdrop
+            obj: HIERARCHYTEST_MO_12_1_CABO DELGADO
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: APdrop
+            obj: HIERARCHYTEST_MO_12_01_01_PEMBA
+        finish pytest_pycollect_makeitem --> None [hook]
+        pytest_pycollect_makeitem [hook]
+            collector: <Class TestLogin>
+            name: test_login
+            obj: <function TestLogin.test_login at 0x70f262913560>
+          pytest_generate_tests [hook]
+              metafunc: <_pytest.python.Metafunc object at 0x70f2628d1f70>
+          finish pytest_generate_tests --> [] [hook]
+        finish pytest_pycollect_makeitem --> [<Function test_login>] [hook]
+      finish pytest_make_collect_report --> <CollectReport 'testCases/setupMicroplan.py::TestLogin' lenresult=1 outcome='passed'> [hook]
+    genitems <Function test_login> [collection]
+      pytest_itemcollected [hook]
+          item: <Function test_login>
+      finish pytest_itemcollected --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testCases/setupMicroplan.py::TestLogin' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collectreport [hook]
+          report: <CollectReport 'testCases/setupMicroplan.py' lenresult=1 outcome='passed'>
+      finish pytest_collectreport --> [] [hook]
+      pytest_collection_modifyitems [hook]
+          session: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          config: <_pytest.config.Config object at 0x70f263836ba0>
+          items: [<Function test_login>]
+      finish pytest_collection_modifyitems --> [] [hook]
+      pytest_collection_finish [hook]
+          session: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        pytest_report_collectionfinish [hook]
+            config: <_pytest.config.Config object at 0x70f263836ba0>
+            items: [<Function test_login>]
+            start_path: /home/shreya-kumar/Microplan
+            startdir: /home/shreya-kumar/Microplan
+        finish pytest_report_collectionfinish --> [] [hook]
+      finish pytest_collection_finish --> [] [hook]
+    finish pytest_collection --> None [hook]
+    pytest_runtestloop [hook]
+        session: <Session Microplan exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=1>
+      pytest_runtest_protocol [hook]
+          item: <Function test_login>
+          nextitem: None
+        pytest_runtest_logstart [hook]
+            nodeid: testCases/setupMicroplan.py::TestLogin::test_login
+            location: ('testCases/setupMicroplan.py', 16, 'TestLogin.test_login')
+        finish pytest_runtest_logstart --> [] [hook]
+        pytest_runtest_setup [hook]
+            item: <Function test_login>
+          pytest_fixture_setup [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='testCases'>
+              request: <SubRequest 'setup' for <Function test_login>>
+          early skip of rewriting module: encodings.idna [assertion]
+          early skip of rewriting module: stringprep [assertion]
+          finish pytest_fixture_setup --> <selenium.webdriver.chrome.webdriver.WebDriver (session="8fe0f49dbb375c448fdfefbb9885e837")> [hook]
+        finish pytest_runtest_setup --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='setup' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='setup' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='setup' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='setup' outcome='passed'>
+              config: <_pytest.config.Config object at 0x70f263836ba0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_call [hook]
+            item: <Function test_login>
+          pytest_pyfunc_call [hook]
+              pyfuncitem: <Function test_login>
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo InvalidSessionIdException() tblen=30>>
+        finish pytest_runtest_makereport --> <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='call' outcome='failed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='call' outcome='failed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='call' outcome='failed'>
+              config: <_pytest.config.Config object at 0x70f263836ba0>
+          finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_exception_interact [hook]
+            node: <Function test_login>
+            call: <CallInfo when='call' excinfo=<ExceptionInfo InvalidSessionIdException() tblen=30>>
+            report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='call' outcome='failed'>
+        finish pytest_exception_interact --> [] [hook]
+        pytest_runtest_teardown [hook]
+            item: <Function test_login>
+            nextitem: None
+          pytest_fixture_post_finalizer [hook]
+              fixturedef: <FixtureDef argname='setup' scope='function' baseid='testCases'>
+              request: <SubRequest 'setup' for <Function test_login>>
+          finish pytest_fixture_post_finalizer --> [] [hook]
+        finish pytest_runtest_teardown --> [] [hook]
+        pytest_runtest_makereport [hook]
+            item: <Function test_login>
+            call: <CallInfo when='teardown' result: []>
+        finish pytest_runtest_makereport --> <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='teardown' outcome='passed'> [hook]
+        pytest_runtest_logreport [hook]
+            report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='teardown' outcome='passed'>
+          pytest_report_teststatus [hook]
+              report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='teardown' outcome='passed'>
+              config: <_pytest.config.Config object at 0x70f263836ba0>
+          finish pytest_report_teststatus --> ('', '', '') [hook]
+        finish pytest_runtest_logreport --> [] [hook]
+        pytest_runtest_logfinish [hook]
+            nodeid: testCases/setupMicroplan.py::TestLogin::test_login
+            location: ('testCases/setupMicroplan.py', 16, 'TestLogin.test_login')
+        finish pytest_runtest_logfinish --> [] [hook]
+      finish pytest_runtest_protocol --> True [hook]
+    finish pytest_runtestloop --> True [hook]
+    pytest_sessionfinish [hook]
+        session: <Session Microplan exitstatus=<ExitCode.TESTS_FAILED: 1> testsfailed=1 testscollected=1>
+        exitstatus: 1
+      pytest_terminal_summary [hook]
+          terminalreporter: <_pytest.terminal.TerminalReporter object at 0x70f2628d2870>
+          exitstatus: 1
+          config: <_pytest.config.Config object at 0x70f263836ba0>
+      early skip of rewriting module: pygments [assertion]
+      early skip of rewriting module: pygments.formatters [assertion]
+      early skip of rewriting module: pygments.formatters._mapping [assertion]
+      early skip of rewriting module: pygments.plugin [assertion]
+      early skip of rewriting module: pygments.util [assertion]
+      early skip of rewriting module: pygments.formatters.terminal [assertion]
+      early skip of rewriting module: pygments.formatter [assertion]
+      early skip of rewriting module: pygments.styles [assertion]
+      early skip of rewriting module: pygments.styles._mapping [assertion]
+      early skip of rewriting module: pygments.token [assertion]
+      early skip of rewriting module: pygments.console [assertion]
+      early skip of rewriting module: pygments.lexers [assertion]
+      early skip of rewriting module: pygments.lexers._mapping [assertion]
+      early skip of rewriting module: pygments.modeline [assertion]
+      early skip of rewriting module: pygments.lexers.python [assertion]
+      early skip of rewriting module: pygments.lexer [assertion]
+      early skip of rewriting module: pygments.filter [assertion]
+      early skip of rewriting module: pygments.filters [assertion]
+      early skip of rewriting module: pygments.regexopt [assertion]
+      early skip of rewriting module: pygments.unistring [assertion]
+        pytest_report_teststatus [hook]
+            report: <TestReport 'testCases/setupMicroplan.py::TestLogin::test_login' when='call' outcome='failed'>
+            config: <_pytest.config.Config object at 0x70f263836ba0>
+        finish pytest_report_teststatus --> ('failed', 'F', 'FAILED') [hook]
+      finish pytest_terminal_summary --> [] [hook]
+    finish pytest_sessionfinish --> [] [hook]
+    pytest_unconfigure [hook]
+        config: <_pytest.config.Config object at 0x70f263836ba0>
+    finish pytest_unconfigure --> [] [hook]
