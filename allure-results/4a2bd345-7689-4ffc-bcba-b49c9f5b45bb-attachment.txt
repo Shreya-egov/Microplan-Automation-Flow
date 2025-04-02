@@ -1,0 +1,51 @@
+Error clicking login button: Message: 
+
+Error selecting option: Message: 
+Stacktrace:
+#0 0x574d7887bbea <unknown>
+#1 0x574d783197d0 <unknown>
+#2 0x574d7836acc0 <unknown>
+#3 0x574d7836ae41 <unknown>
+#4 0x574d783b9984 <unknown>
+#5 0x574d78390abd <unknown>
+#6 0x574d783b6d0c <unknown>
+#7 0x574d78390863 <unknown>
+#8 0x574d7835cac8 <unknown>
+#9 0x574d7835dc31 <unknown>
+#10 0x574d7884518b <unknown>
+#11 0x574d78849112 <unknown>
+#12 0x574d7883204c <unknown>
+#13 0x574d78849d04 <unknown>
+#14 0x574d788164bf <unknown>
+#15 0x574d7886a528 <unknown>
+#16 0x574d7886a6f9 <unknown>
+#17 0x574d7887aa66 <unknown>
+#18 0x7a4f4869caa4 <unknown>
+#19 0x7a4f48729c3c <unknown>
+
+Error clicking dpp button: Message: 
+Stacktrace:
+#0 0x574d7887bbea <unknown>
+#1 0x574d783197d0 <unknown>
+#2 0x574d7836acc0 <unknown>
+#3 0x574d7836ae41 <unknown>
+#4 0x574d783b9984 <unknown>
+#5 0x574d78390abd <unknown>
+#6 0x574d783b6d0c <unknown>
+#7 0x574d78390863 <unknown>
+#8 0x574d7835cac8 <unknown>
+#9 0x574d7835dc31 <unknown>
+#10 0x574d7884518b <unknown>
+#11 0x574d78849112 <unknown>
+#12 0x574d7883204c <unknown>
+#13 0x574d78849d04 <unknown>
+#14 0x574d788164bf <unknown>
+#15 0x574d7886a528 <unknown>
+#16 0x574d7886a6f9 <unknown>
+#17 0x574d7887aa66 <unknown>
+#18 0x7a4f4869caa4 <unknown>
+#19 0x7a4f48729c3c <unknown>
+
+Error setting campaign name: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Error clicking dpp button: HTTPConnectionPool(host='localhost', port=44373): Max retries exceeded with url: /session/6115157df3a527223d50aa8197b3796e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x792df5c2c7d0>: Failed to establish a new connection: [Errno 111] Connection refused'))
+Error accepting popup: HTTPConnectionPool(host='localhost', port=44373): Max retries exceeded with url: /session/6115157df3a527223d50aa8197b3796e/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x792df5c2d2b0>: Failed to establish a new connection: [Errno 111] Connection refused'))

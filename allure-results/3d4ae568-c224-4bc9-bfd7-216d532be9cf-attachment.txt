@@ -1,0 +1,480 @@
+Error uploading Facility file: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d57d0 <unknown>
+#2 0x583f6f7bb35e <unknown>
+#3 0x583f6f7e3db9 <unknown>
+#4 0x583f6f8553c9 <unknown>
+#5 0x583f6f872679 <unknown>
+#6 0x583f6f84c863 <unknown>
+#7 0x583f6f818ac8 <unknown>
+#8 0x583f6f819c31 <unknown>
+#9 0x583f6fd0118b <unknown>
+#10 0x583f6fd05112 <unknown>
+#11 0x583f6fcee04c <unknown>
+#12 0x583f6fd05d04 <unknown>
+#13 0x583f6fcd24bf <unknown>
+#14 0x583f6fd26528 <unknown>
+#15 0x583f6fd266f9 <unknown>
+#16 0x583f6fd36a66 <unknown>
+#17 0x78227109caa4 <unknown>
+#18 0x782271129c3c <unknown>
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking Together checkbox button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error in adding Genassump: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error in adding Genassump: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error in adding Genassump: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error adding NMP: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error adding NPA: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error adding NPA: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
+Error clicking dpp button: Message: invalid session id
+Stacktrace:
+#0 0x583f6fd37bea <unknown>
+#1 0x583f6f7d5623 <unknown>
+#2 0x583f6f817d7f <unknown>
+#3 0x583f6f84c996 <unknown>
+#4 0x583f6f8471f2 <unknown>
+#5 0x583f6f846325 <unknown>
+#6 0x583f6f79e328 <unknown>
+#7 0x583f6fd0118b <unknown>
+#8 0x583f6fd05112 <unknown>
+#9 0x583f6fcee04c <unknown>
+#10 0x583f6fd05d04 <unknown>
+#11 0x583f6fcd24bf <unknown>
+#12 0x583f6f79cd72 <unknown>
+#13 0x78227102a1ca <unknown>
+#14 0x78227102a28b __libc_start_main
+#15 0x583f6f76576a _start
+
