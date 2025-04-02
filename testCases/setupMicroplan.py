@@ -4,7 +4,7 @@ import os
 import allure
 from pageobjects.Microplan import TestMPFlow
 from utilities.readProperties import ReadConfig
-# from utilities.customlogger import logging
+from utilities.customlogger import LogGen
 
 
 @allure.suite('Test Microplan Flow')  # Suite for this test
@@ -14,10 +14,7 @@ class TestMPLoginFlow:
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
     country_name = ReadConfig.get_country_name()
-    # countrydrop = ReadConfig.get_country()
-    # provincedrop = ReadConfig.get_province()
-    # districtdrop = ReadConfig.get_district()
-    # APdrop = ReadConfig.get_AP()
+    logger = LogGen.loggen()
 
     @pytest.fixture(autouse=True)
     def setup(self, setup):

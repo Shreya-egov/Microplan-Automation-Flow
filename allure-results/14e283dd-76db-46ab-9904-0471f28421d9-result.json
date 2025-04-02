@@ -1,1 +1,0 @@
-{"name": "test_complete_flow", "status": "passed", "start": 1743574533973, "stop": 1743574552018, "uuid": "c320cad3-2770-46ef-8533-6c9c459e4ed7", "testCaseId": "5cd26068b517f8953ac01f80989b1900", "fullName": "testCases.setupMicroplan.TestMPLoginFlow#test_complete_flow", "labels": [{"name": "feature", "value": "Login"}, {"name": "feature", "value": "Microplan Setup"}]}
