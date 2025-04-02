@@ -273,7 +273,7 @@ class TestMPFlow:
         except Exception as e:
             print(f"Error clicking submit button: {e}")
 
-    def countrydropdown(self, countrydrop):
+    def countrydropdown(self):
     #     # try:
         # Click the dropdown to show options
             countrydropdown_elem = WebDriverWait(self.driver, 30).until(
@@ -298,7 +298,7 @@ class TestMPFlow:
             time.sleep(3)
 
 
-    def provincedropdown(self, provincedrop):
+    def provincedropdown(self):
         try:
             self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight / 1.5);")  # Scroll to the middle of the page
             WebDriverWait(self.driver, 20).until(EC.presence_of_element_located(self.dropdownprovince))  # Wait for the dropdown to be present
@@ -351,7 +351,7 @@ class TestMPFlow:
         except Exception as e:
             print(f"Error clicking submit button: {e}")
 
-    def districtdropdown(self, districtdrop):
+    def districtdropdown(self):
         try:
             # self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight / 1.5);")  # Scroll to the middle of the page
             # WebDriverWait(self.driver, 10).until(EC.presence_of_element_located(self.dropdowndistrict))  # Wait for the dropdown to be present
@@ -377,7 +377,7 @@ class TestMPFlow:
             print(f"Error selecting values from province dropdown: {e}")
 
 
-    def APdropdown(self, APdrop):
+    def APdropdown(self):
         try:
             APdropdown_elem = WebDriverWait(self.driver, 20).until(
                 EC.element_to_be_clickable(self.dropdownpost)
