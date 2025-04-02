@@ -14,10 +14,10 @@ class TestMPLoginFlow:
     username = ReadConfig.get_username()
     password = ReadConfig.get_password()
     country_name = ReadConfig.get_country_name()
-    countrydrop = ReadConfig.get_country()
-    provincedrop = ReadConfig.get_province()
-    districtdrop = ReadConfig.get_district()
-    APdrop = ReadConfig.get_AP()
+    # countrydrop = ReadConfig.get_country()
+    # provincedrop = ReadConfig.get_province()
+    # districtdrop = ReadConfig.get_district()
+    # APdrop = ReadConfig.get_AP()
 
     @pytest.fixture(autouse=True)
     def setup(self, setup):
@@ -53,15 +53,16 @@ class TestMPLoginFlow:
         lp.set_unique_microplan_name()
         lp.nextbuttonone()
         lp.popprocceed()
-        lp.countrydropdown(self.countrydrop)
+        lp.countrydropdown()
+        # lp.countrydropdown(self.countrydrop)
 
         # Step 3: Select Boundaries for the Microplan
         allure.dynamic.feature('Boundary Selection')  # Dynamic feature tag for boundary selection
-        lp.provincedropdown(self.provincedrop)
+        lp.provincedropdown()
         lp.BG1click()
-        lp.districtdropdown(self.districtdrop)
+        lp.districtdropdown()
         lp.BG1click()
-        lp.APdropdown(self.APdrop)
+        lp.APdropdown()
         lp.BG1click()
         lp.Localitydropdown()
         lp.BG1click()
