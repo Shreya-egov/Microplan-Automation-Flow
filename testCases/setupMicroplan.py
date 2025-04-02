@@ -119,14 +119,4 @@ class TestMPLoginFlow:
         lp.createMicroplan()
         self.logger.info("******Microplan created successfully******")
 
-        # Optionally: Take screenshot after creating the microplan
-        # screenshot_folder = "./Screenshots"
-        # if not os.path.exists(screenshot_folder):
-        #     os.makedirs(screenshot_folder)
-
-        # timestamp = time.strftime("%Y%m%d-%H%M%S")
-        # screenshot_filename = os.path.join(screenshot_folder, f"createMP_{timestamp}.png")
-        # self.driver.save_screenshot(screenshot_filename)
-        # logging.info(f"Screenshot saved at {screenshot_filename}")
-        
-        # logging.info("Microplan created successfully")
+      

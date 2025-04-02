@@ -1,4 +1,5 @@
 import datetime
+import os
 import random
 import string
 import time
@@ -735,32 +736,81 @@ class TestMPFlow:
 
 
     
-    def createMicroplan(self):
+    # def createMicroplan(self):
 
-        # createnbutton = WebDriverWait(self.driver, 10).until(
-        #     EC.element_to_be_clickable(self.createMPbutton)
+    #     # createnbutton = WebDriverWait(self.driver, 10).until(
+    #     #     EC.element_to_be_clickable(self.createMPbutton)
 
-        # )
+    #     # )
 
-        # createnbutton.click()
+    #     # createnbutton.click()
     
-    # Wait for the element containing the success message to be present
-        createcampaign_element = WebDriverWait(self.driver, 15).until(
-            EC.presence_of_element_located(self.createMicroplan1)
-        )
+    # # Wait for the element containing the success message to be present
+    #     createcampaign_element = WebDriverWait(self.driver, 15).until(
+    #         EC.presence_of_element_located(self.createMicroplan1)
+    #     )
     
-    # Retrieve the text from the element
-        actual_text = createcampaign_element.text
+    # # Retrieve the text from the element
+    #     actual_text = createcampaign_element.text
 
-    # Define the expected text
-        expected_text = "Microplan setup completed!"
+    # # Define the expected text
+    #     expected_text = "Microplan setup completed!"
 
-    # Verify the text
-        assert actual_text == expected_text, f"Text verification failed: Expected '{expected_text}', but got '{actual_text}'"   
-        print("Text verification passed.")
+    # # Verify the text
+    #     assert actual_text == expected_text, f"Text verification failed: Expected '{expected_text}', but got '{actual_text}'"   
+    #     print("Text verification passed.")
          
  
+    def createMicroplan(self):
+
+        try:
+            # Wait for the element containing the success message to be present
+            createcampaign_element = WebDriverWait(self.driver, 15).until(
+                EC.presence_of_element_located(self.createMicroplan1)
+            )
+        
+            # Retrieve the text from the element
+            actual_text = createcampaign_element.text
+        
+            # Define the expected text
+            expected_text = "Microplan setup completed!"
+        
+            # Verify the text
+            assert actual_text == expected_text, f"Text verification failed: Expected '{expected_text}', but got '{actual_text}'"
+            print("Text verification passed.")
+        
+        except Exception as e:
+            # If there's any exception or failure, capture a screenshot for debugging
+            timestamp = time.strftime("%Y%m%d-%H%M%S")
+            screenshot_folder = "./Screenshots"
+            if not os.path.exists(screenshot_folder):
+                os.makedirs(screenshot_folder)
+
+            screenshot_filename = os.path.join(screenshot_folder, f"createMicroplan_{timestamp}.png")
+            self.driver.save_screenshot(screenshot_filename)
+            print(f"Screenshot saved at: {screenshot_filename}")
+            print(f"Error: {str(e)}")
+            raise e 
+ 
     
+    
+    
+    
+
+ 
+            
+
+
+    
+    
+    
+    
+    
+    
+
+ 
+            
+
     
     
     
