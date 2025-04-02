@@ -1,11 +1,14 @@
 import pytest
 import time
 import os
+import allure
 from pageobjects.Microplan import TestMPFlow
 from utilities.readProperties import ReadConfig
 # from utilities.customlogger import logging
 
 
+@allure.suite('Test Microplan Flow')  # Suite for this test
+@allure.feature('Microplan Test Flow')  # General feature for the whole flow
 class TestMPLoginFlow:
     baseURL = ReadConfig.get_application_url()
     username = ReadConfig.get_username()
@@ -26,14 +29,13 @@ class TestMPLoginFlow:
         # Cleanup / Teardown: Quit the driver after the test
         self.driver.quit()   # Ensures the driver quits regardless of any test failure
 
-
+    @allure.story('Step 1: Perform Login')
     def test_complete_flow(self):
-        # logging.info(f"Opening URL: {self.baseURL}")
+        # Step 1: Perform Login
+        allure.dynamic.feature('Login')  # Dynamic feature tag for the login step
         self.driver.get(self.baseURL)
         lp = TestMPFlow(self.driver)
         
-        # Step 1: Perform Login
-        # logging.info("Performing login actions")
         lp.setusername(self.username)
         lp.setpassword(self.password)
         lp.setcountry(self.country_name)
@@ -43,20 +45,18 @@ class TestMPLoginFlow:
         # Ensure successful login
         act_title = self.driver.title
         assert act_title == "DIGIT HCM", f"Expected title 'DIGIT HCM' but got '{act_title}'"
-        # logging.info("Login successful, title verified")
-
+        
         # Step 2: Navigate to Microplan creation
-        # logging.info("Navigating to the Microplan creation")
+        allure.dynamic.feature('Microplan Setup')  # Dynamic feature tag for microplan setup
         lp.get_setup_microplan_element()
         lp.nextbuttonone()
         lp.set_unique_microplan_name()
         lp.nextbuttonone()
         lp.popprocceed()
         lp.countrydropdown(self.countrydrop)
-        
+
         # Step 3: Select Boundaries for the Microplan
-        # logging.info("Selecting boundaries for the microplan")
-        
+        allure.dynamic.feature('Boundary Selection')  # Dynamic feature tag for boundary selection
         lp.provincedropdown(self.provincedrop)
         lp.BG1click()
         lp.districtdropdown(self.districtdrop)
@@ -70,7 +70,7 @@ class TestMPLoginFlow:
         lp.nextbuttonone()
 
         # Step 4: Upload Population and Facility Details
-        # logging.info("Uploading population and facility details")
+        allure.dynamic.feature('Data Upload')  # Dynamic feature tag for data upload
         lp.upload_Pop_excel_file()
         lp.nextbuttonone()
         lp.upload_Facility_excel_file()
@@ -79,7 +79,7 @@ class TestMPLoginFlow:
         lp.nextbuttonone()
 
         # Step 5: Add Assumptions and Estimations
-        # logging.info("Adding assumptions and estimations")
+        allure.dynamic.feature('Assumptions and Estimations')  # Dynamic feature tag for assumptions
         lp.Genassumptions()
         lp.nextbuttontwo()
         lp.HRassump()
@@ -93,7 +93,7 @@ class TestMPLoginFlow:
         lp.nextbuttonone()
 
         # Step 6: Tag Users for the Microplan
-        # logging.info("Tagging users for the microplan")
+        allure.dynamic.feature('User Tagging')  # Dynamic feature tag for user tagging
         lp.tagNMP()
         lp.nextbuttontwo()
         lp.tagNFA()
@@ -106,29 +106,10 @@ class TestMPLoginFlow:
         lp.nextbuttonone()
 
         # Step 7: Create the Microplan
-        # logging.info("Creating the microplan")
+        allure.dynamic.feature('Microplan Creation')  # Dynamic feature tag for microplan creation
         lp.createMicroplan()
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
-
-        # # Optionally: Take screenshot after creating the microplan
+        # Optionally: Take screenshot after creating the microplan
         # screenshot_folder = "./Screenshots"
         # if not os.path.exists(screenshot_folder):
         #     os.makedirs(screenshot_folder)
@@ -137,5 +118,5 @@ class TestMPLoginFlow:
         # screenshot_filename = os.path.join(screenshot_folder, f"createMP_{timestamp}.png")
         # self.driver.save_screenshot(screenshot_filename)
         # logging.info(f"Screenshot saved at {screenshot_filename}")
-
+        
         # logging.info("Microplan created successfully")

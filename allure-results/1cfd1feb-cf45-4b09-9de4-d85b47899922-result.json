@@ -1,1 +1,0 @@
-{"name": "Test Microplan Creation", "status": "passed", "description": "This test case ensures the microplan creation is successful", "start": 1743507159049, "stop": 1743507257340, "uuid": "7aaac230-8fd0-401f-86ed-ef22638dfabc", "testCaseId": "bd9c1072a7efd62390acd843efbc4b51", "fullName": "testCases.setupMicroplan2.TestMPFlow#test_microplan_creation"}
