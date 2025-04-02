@@ -1,0 +1,93 @@
+Error selecting option: Message: 
+Stacktrace:
+#0 0x6024bd94ebea <unknown>
+#1 0x6024bd3ec7d0 <unknown>
+#2 0x6024bd43dcc0 <unknown>
+#3 0x6024bd43de41 <unknown>
+#4 0x6024bd48c984 <unknown>
+#5 0x6024bd463abd <unknown>
+#6 0x6024bd489d0c <unknown>
+#7 0x6024bd463863 <unknown>
+#8 0x6024bd42fac8 <unknown>
+#9 0x6024bd430c31 <unknown>
+#10 0x6024bd91818b <unknown>
+#11 0x6024bd91c112 <unknown>
+#12 0x6024bd90504c <unknown>
+#13 0x6024bd91cd04 <unknown>
+#14 0x6024bd8e94bf <unknown>
+#15 0x6024bd93d528 <unknown>
+#16 0x6024bd93d6f9 <unknown>
+#17 0x6024bd94da66 <unknown>
+#18 0x77b39829caa4 <unknown>
+#19 0x77b398329c3c <unknown>
+
+Error clicking dpp button: Message: 
+Stacktrace:
+#0 0x6024bd94ebea <unknown>
+#1 0x6024bd3ec7d0 <unknown>
+#2 0x6024bd43dcc0 <unknown>
+#3 0x6024bd43de41 <unknown>
+#4 0x6024bd48c984 <unknown>
+#5 0x6024bd463abd <unknown>
+#6 0x6024bd489d0c <unknown>
+#7 0x6024bd463863 <unknown>
+#8 0x6024bd42fac8 <unknown>
+#9 0x6024bd430c31 <unknown>
+#10 0x6024bd91818b <unknown>
+#11 0x6024bd91c112 <unknown>
+#12 0x6024bd90504c <unknown>
+#13 0x6024bd91cd04 <unknown>
+#14 0x6024bd8e94bf <unknown>
+#15 0x6024bd93d528 <unknown>
+#16 0x6024bd93d6f9 <unknown>
+#17 0x6024bd94da66 <unknown>
+#18 0x77b39829caa4 <unknown>
+#19 0x77b398329c3c <unknown>
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x6024bd94ebea <unknown>
+#1 0x6024bd3ec7d0 <unknown>
+#2 0x6024bd43dcc0 <unknown>
+#3 0x6024bd43de41 <unknown>
+#4 0x6024bd48c984 <unknown>
+#5 0x6024bd463abd <unknown>
+#6 0x6024bd489d0c <unknown>
+#7 0x6024bd463863 <unknown>
+#8 0x6024bd42fac8 <unknown>
+#9 0x6024bd430c31 <unknown>
+#10 0x6024bd91818b <unknown>
+#11 0x6024bd91c112 <unknown>
+#12 0x6024bd90504c <unknown>
+#13 0x6024bd91cd04 <unknown>
+#14 0x6024bd8e94bf <unknown>
+#15 0x6024bd93d528 <unknown>
+#16 0x6024bd93d6f9 <unknown>
+#17 0x6024bd94da66 <unknown>
+#18 0x77b39829caa4 <unknown>
+#19 0x77b398329c3c <unknown>
+
+Error clicking dpp button: 'NoneType' object has no attribute 'is_displayed'
+Error accepting popup: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x6024bd94ebea <unknown>
+#1 0x6024bd3ec7d0 <unknown>
+#2 0x6024bd3c0895 <unknown>
+#3 0x6024bd46c21e <unknown>
+#4 0x6024bd489679 <unknown>
+#5 0x6024bd463863 <unknown>
+#6 0x6024bd42fac8 <unknown>
+#7 0x6024bd430c31 <unknown>
+#8 0x6024bd91818b <unknown>
+#9 0x6024bd91c112 <unknown>
+#10 0x6024bd90504c <unknown>
+#11 0x6024bd91cd04 <unknown>
+#12 0x6024bd8e94bf <unknown>
+#13 0x6024bd93d528 <unknown>
+#14 0x6024bd93d6f9 <unknown>
+#15 0x6024bd94da66 <unknown>
+#16 0x77b39829caa4 <unknown>
+#17 0x77b398329c3c <unknown>
+

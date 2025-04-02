@@ -1,0 +1,186 @@
+Error setting username: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error setting password: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error selecting country: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error clicking dpp button: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error clicking login button: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error selecting option: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error clicking dpp button: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x5f95ef104bea <unknown>
+#1 0x5f95eeba27d0 <unknown>
+#2 0x5f95eebf3cc0 <unknown>
+#3 0x5f95eebf3e41 <unknown>
+#4 0x5f95eec42984 <unknown>
+#5 0x5f95eec19abd <unknown>
+#6 0x5f95eec3fd0c <unknown>
+#7 0x5f95eec19863 <unknown>
+#8 0x5f95eebe5ac8 <unknown>
+#9 0x5f95eebe6c31 <unknown>
+#10 0x5f95ef0ce18b <unknown>
+#11 0x5f95ef0d2112 <unknown>
+#12 0x5f95ef0bb04c <unknown>
+#13 0x5f95ef0d2d04 <unknown>
+#14 0x5f95ef09f4bf <unknown>
+#15 0x5f95ef0f3528 <unknown>
+#16 0x5f95ef0f36f9 <unknown>
+#17 0x5f95ef103a66 <unknown>
+#18 0x78735949caa4 <unknown>
+#19 0x787359529c3c <unknown>
+
+Error clicking dpp button: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+Error accepting popup: HTTPConnectionPool(host='localhost', port=51675): Max retries exceeded with url: /session/76877203102c12085e4ca0108d16677c/element (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7b4e64cabcb0>: Failed to establish a new connection: [Errno 111] Connection refused'))
