@@ -29,7 +29,9 @@ class TestMPLoginFlow:
     @allure.story('Step 1: Perform Login')
     def test_complete_flow(self):
         # Step 1: Perform Login
+        self.logger.info(f"***************Opening URL: {self.baseURL}*****************")
         allure.dynamic.feature('Login')  # Dynamic feature tag for the login step
+        self.logger.info("*****************Performing login actions*******************")
         self.driver.get(self.baseURL)
         lp = TestMPFlow(self.driver)
         
@@ -38,6 +40,7 @@ class TestMPLoginFlow:
         lp.setcountry(self.country_name)
         lp.dpp()
         lp.login()
+        self.logger.info("***********Logging successful***************")
 
         # Ensure successful login
         act_title = self.driver.title
@@ -48,6 +51,7 @@ class TestMPLoginFlow:
         lp.get_setup_microplan_element()
         lp.nextbuttonone()
         lp.set_unique_microplan_name()
+        self.logger.info("**********Microplan name initiated*****************")
         lp.nextbuttonone()
         lp.popprocceed()
         lp.countrydropdown()
@@ -55,6 +59,7 @@ class TestMPLoginFlow:
 
         # Step 3: Select Boundaries for the Microplan
         allure.dynamic.feature('Boundary Selection')  # Dynamic feature tag for boundary selection
+        self.logger.info("***************Selecting boundaries*****************")
         lp.provincedropdown()
         lp.BG1click()
         lp.districtdropdown()
@@ -66,13 +71,16 @@ class TestMPLoginFlow:
         lp.VillageDropdown()
         lp.BG1click()
         lp.nextbuttonone()
+        self.logger.info("*******Boundaries for Microplan are selected********")
 
         # Step 4: Upload Population and Facility Details
         allure.dynamic.feature('Data Upload')  # Dynamic feature tag for data upload
         lp.upload_Pop_excel_file()
         lp.nextbuttonone()
+        self.logger.info("********Population excel uploaded successfully*******")
         lp.upload_Facility_excel_file()
         lp.nextbuttonone()
+        self.logger.info("**********Facilities excel uploaded successfully***********")
         lp.selectTogetherProcess()
         lp.nextbuttonone()
 
@@ -89,6 +97,7 @@ class TestMPLoginFlow:
         lp.nextbuttontwo()
         lp.nextbuttontwo()
         lp.nextbuttonone()
+        self.logger.info("*********Assumptions and estimations are successfully loaded********")
 
         # Step 6: Tag Users for the Microplan
         allure.dynamic.feature('User Tagging')  # Dynamic feature tag for user tagging
@@ -98,14 +107,17 @@ class TestMPLoginFlow:
         lp.nextbuttontwo()
         lp.tagNPA()
         lp.nextbuttontwo()
+        self.logger.info("***********Users tagged successfully*********")
         lp.nextbuttontwo()
         lp.nextbuttontwo()
         lp.nextbuttonone()
         lp.nextbuttonone()
 
+
         # Step 7: Create the Microplan
         allure.dynamic.feature('Microplan Creation')  # Dynamic feature tag for microplan creation
         lp.createMicroplan()
+        self.logger.info("******Microplan created successfully******")
 
         # Optionally: Take screenshot after creating the microplan
         # screenshot_folder = "./Screenshots"

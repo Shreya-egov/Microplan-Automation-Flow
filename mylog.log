@@ -62,3 +62,22 @@
 04/01/2025 05:11:53 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x790645235790>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ccdee1fdc44c6ca6d17e379ecd8e2127
 04/01/2025 05:11:53 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x790645235a90>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ccdee1fdc44c6ca6d17e379ecd8e2127
 04/01/2025 05:11:53 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x790645235c10>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/ccdee1fdc44c6ca6d17e379ecd8e2127
+04/02/2025 12:19:19 PM: INFO: Opening URL: https://health-demo.digit.org/microplan-ui/employee/user/login
+04/02/2025 12:19:19 PM: INFO: Performing login actions
+04/02/2025 12:23:11 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f9d2db97c0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3809572233b414f53caba2d603aa1c57
+04/02/2025 12:23:11 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f9d2db9880>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3809572233b414f53caba2d603aa1c57
+04/02/2025 12:23:11 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x77f9d2db9a30>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/3809572233b414f53caba2d603aa1c57
+04/02/2025 12:27:57 PM: INFO: ***************Opening URL: https://health-demo.digit.org/microplan-ui/employee/user/login*****************
+04/02/2025 12:27:57 PM: INFO: *****************Performing login actions*******************
+04/02/2025 12:28:02 PM: INFO: ***********Logging successful***************
+04/02/2025 12:28:08 PM: INFO: **********Microplan name initiated*****************
+04/02/2025 12:28:15 PM: INFO: ***************Selecting boundaries*****************
+04/02/2025 12:28:32 PM: INFO: *******Boundaries for Microplan are selected********
+04/02/2025 12:29:05 PM: INFO: ********Population excel uploaded successfully*******
+04/02/2025 12:29:28 PM: INFO: **********Facilities excel uploaded successfully***********
+04/02/2025 12:30:16 PM: INFO: *********Assumptions and estimations are successfully loaded********
+04/02/2025 12:31:43 PM: INFO: ***********Users tagged successfully*********
+04/02/2025 12:31:51 PM: INFO: ******Microplan created successfully******
+04/02/2025 12:31:51 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7168b63e1820>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b7f4bbcc0240945411546f611c669be9
+04/02/2025 12:31:51 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7168b63e1910>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b7f4bbcc0240945411546f611c669be9
+04/02/2025 12:31:51 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7168b63e1ac0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b7f4bbcc0240945411546f611c669be9
