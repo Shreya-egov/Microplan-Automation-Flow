@@ -768,7 +768,7 @@ class TestMPFlow:
             createcampaign_element = WebDriverWait(self.driver, 15).until(
                 EC.presence_of_element_located(self.createMicroplan1)
             )
-        
+            time.sleep(3)
             # Retrieve the text from the element
             actual_text = createcampaign_element.text
         
