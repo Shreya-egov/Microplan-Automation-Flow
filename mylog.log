@@ -123,3 +123,31 @@
 04/03/2025 03:15:28 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x70b63ca3e2d0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/53e8c515964f76a09031971876877bfe
 04/03/2025 03:15:28 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x70b63ca3e390>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/53e8c515964f76a09031971876877bfe
 04/03/2025 03:15:28 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x70b63ca3e540>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/53e8c515964f76a09031971876877bfe
+04/03/2025 03:31:52 PM: INFO: ***************Opening URL: https://health-demo.digit.org/microplan-ui/employee/user/login*****************
+04/03/2025 03:31:52 PM: INFO: *****************Performing login actions*******************
+04/03/2025 03:31:59 PM: INFO: ***********Logging successful***************
+04/03/2025 03:32:05 PM: INFO: **********Microplan name initiated*****************
+04/03/2025 03:32:22 PM: INFO: ***************Selecting boundaries*****************
+04/03/2025 03:32:40 PM: INFO: *******Boundaries for Microplan are selected********
+04/03/2025 03:33:15 PM: INFO: ********Population excel uploaded successfully*******
+04/03/2025 03:33:39 PM: INFO: **********Facilities excel uploaded successfully***********
+04/03/2025 03:34:26 PM: INFO: *********Assumptions and estimations are successfully loaded********
+04/03/2025 03:35:55 PM: INFO: ***********Users tagged successfully*********
+04/03/2025 03:36:06 PM: INFO: ******Microplan created successfully******
+04/03/2025 03:36:06 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5e75aee390>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c957b9721533a65ef2556e52b0f8d102
+04/03/2025 03:36:06 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5e75aee450>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c957b9721533a65ef2556e52b0f8d102
+04/03/2025 03:36:06 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f5e75aee600>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/c957b9721533a65ef2556e52b0f8d102
+04/03/2025 03:37:14 PM: INFO: ***************Opening URL: https://health-demo.digit.org/microplan-ui/employee/user/login*****************
+04/03/2025 03:37:14 PM: INFO: *****************Performing login actions*******************
+04/03/2025 03:37:20 PM: INFO: ***********Logging successful***************
+04/03/2025 03:37:27 PM: INFO: **********Microplan name initiated*****************
+04/03/2025 03:37:36 PM: INFO: ***************Selecting boundaries*****************
+04/03/2025 03:37:54 PM: INFO: *******Boundaries for Microplan are selected********
+04/03/2025 03:38:28 PM: INFO: ********Population excel uploaded successfully*******
+04/03/2025 03:38:51 PM: INFO: **********Facilities excel uploaded successfully***********
+04/03/2025 03:39:40 PM: INFO: *********Assumptions and estimations are successfully loaded********
+04/03/2025 03:41:10 PM: INFO: ***********Users tagged successfully*********
+04/03/2025 03:41:20 PM: INFO: ******Microplan created successfully******
+04/03/2025 03:41:20 PM: WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7cf003765f40>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b29fe8b6589e9921d76b95a5be60c41b
+04/03/2025 03:41:20 PM: WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7cf003766000>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b29fe8b6589e9921d76b95a5be60c41b
+04/03/2025 03:41:20 PM: WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7cf0037661b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/b29fe8b6589e9921d76b95a5be60c41b
