@@ -1,0 +1,29 @@
+Error accepting popup: Message: element click intercepted: Element <button class="digit-button-secondary large campaign-type-alert-button " type="button" title="Save and Proceed">...</button> is not clickable at point (831, 582). Other element would receive the click: <div>...</div>
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5f6bbdd46bea <unknown>
+#1 0x5f6bbd7e47d0 <unknown>
+#2 0x5f6bbd83ca8c <unknown>
+#3 0x5f6bbd83a8f5 <unknown>
+#4 0x5f6bbd837f92 <unknown>
+#5 0x5f6bbd837687 <unknown>
+#6 0x5f6bbd829c6d <unknown>
+#7 0x5f6bbd85ba92 <unknown>
+#8 0x5f6bbd8295ea <unknown>
+#9 0x5f6bbd85bc5e <unknown>
+#10 0x5f6bbd881d0c <unknown>
+#11 0x5f6bbd85b863 <unknown>
+#12 0x5f6bbd827ac8 <unknown>
+#13 0x5f6bbd828c31 <unknown>
+#14 0x5f6bbdd1018b <unknown>
+#15 0x5f6bbdd14112 <unknown>
+#16 0x5f6bbdcfd04c <unknown>
+#17 0x5f6bbdd14d04 <unknown>
+#18 0x5f6bbdce14bf <unknown>
+#19 0x5f6bbdd35528 <unknown>
+#20 0x5f6bbdd356f9 <unknown>
+#21 0x5f6bbdd45a66 <unknown>
+#22 0x751e7489caa4 <unknown>
+#23 0x751e74929c3c <unknown>
+
+Text verification passed.

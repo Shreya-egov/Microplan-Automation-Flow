@@ -1,0 +1,7 @@
+[32mINFO    [0m root:setupMicroplan.py:32 ***************Opening URL: https://health-demo.digit.org/microplan-ui/employee/user/login*****************
+[32mINFO    [0m root:setupMicroplan.py:34 *****************Performing login actions*******************
+[32mINFO    [0m root:setupMicroplan.py:43 ***********Logging successful***************
+[32mINFO    [0m root:setupMicroplan.py:54 **********Microplan name initiated*****************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x75e92d3eb920>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9f54d33366f3c4d5c360d8171c356a28
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x75e92d3e9520>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9f54d33366f3c4d5c360d8171c356a28
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x75e92d3e9700>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/9f54d33366f3c4d5c360d8171c356a28

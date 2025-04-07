@@ -1,0 +1,115 @@
+Error setting username: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c3469f88bea <unknown>
+#1 0x5c3469a267d0 <unknown>
+#2 0x5c34699fa895 <unknown>
+#3 0x5c3469aa621e <unknown>
+#4 0x5c3469ac3679 <unknown>
+#5 0x5c3469a9d863 <unknown>
+#6 0x5c3469a69ac8 <unknown>
+#7 0x5c3469a6ac31 <unknown>
+#8 0x5c3469f5218b <unknown>
+#9 0x5c3469f56112 <unknown>
+#10 0x5c3469f3f04c <unknown>
+#11 0x5c3469f56d04 <unknown>
+#12 0x5c3469f234bf <unknown>
+#13 0x5c3469f77528 <unknown>
+#14 0x5c3469f776f9 <unknown>
+#15 0x5c3469f87a66 <unknown>
+#16 0x7bfe11a9caa4 <unknown>
+#17 0x7bfe11b29c3c <unknown>
+
+Error setting password: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c3469f88bea <unknown>
+#1 0x5c3469a267d0 <unknown>
+#2 0x5c34699fa895 <unknown>
+#3 0x5c3469aa621e <unknown>
+#4 0x5c3469ac3679 <unknown>
+#5 0x5c3469a9d863 <unknown>
+#6 0x5c3469a69ac8 <unknown>
+#7 0x5c3469a6ac31 <unknown>
+#8 0x5c3469f5218b <unknown>
+#9 0x5c3469f56112 <unknown>
+#10 0x5c3469f3f04c <unknown>
+#11 0x5c3469f56d04 <unknown>
+#12 0x5c3469f234bf <unknown>
+#13 0x5c3469f77528 <unknown>
+#14 0x5c3469f776f9 <unknown>
+#15 0x5c3469f87a66 <unknown>
+#16 0x7bfe11a9caa4 <unknown>
+#17 0x7bfe11b29c3c <unknown>
+
+Error selecting country: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c3469f88bea <unknown>
+#1 0x5c3469a267d0 <unknown>
+#2 0x5c34699fa895 <unknown>
+#3 0x5c3469aa621e <unknown>
+#4 0x5c3469ac3679 <unknown>
+#5 0x5c3469a9d863 <unknown>
+#6 0x5c3469a69ac8 <unknown>
+#7 0x5c3469a6ac31 <unknown>
+#8 0x5c3469f5218b <unknown>
+#9 0x5c3469f56112 <unknown>
+#10 0x5c3469f3f04c <unknown>
+#11 0x5c3469f56d04 <unknown>
+#12 0x5c3469f234bf <unknown>
+#13 0x5c3469f77528 <unknown>
+#14 0x5c3469f776f9 <unknown>
+#15 0x5c3469f87a66 <unknown>
+#16 0x7bfe11a9caa4 <unknown>
+#17 0x7bfe11b29c3c <unknown>
+
+Error clicking dpp button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c3469f88bea <unknown>
+#1 0x5c3469a267d0 <unknown>
+#2 0x5c34699fa895 <unknown>
+#3 0x5c3469aa621e <unknown>
+#4 0x5c3469ac3679 <unknown>
+#5 0x5c3469a9d863 <unknown>
+#6 0x5c3469a69ac8 <unknown>
+#7 0x5c3469a6ac31 <unknown>
+#8 0x5c3469f5218b <unknown>
+#9 0x5c3469f56112 <unknown>
+#10 0x5c3469f3f04c <unknown>
+#11 0x5c3469f56d04 <unknown>
+#12 0x5c3469f234bf <unknown>
+#13 0x5c3469f77528 <unknown>
+#14 0x5c3469f776f9 <unknown>
+#15 0x5c3469f87a66 <unknown>
+#16 0x7bfe11a9caa4 <unknown>
+#17 0x7bfe11b29c3c <unknown>
+
+Error clicking login button: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5c3469f88bea <unknown>
+#1 0x5c3469a267d0 <unknown>
+#2 0x5c34699fa895 <unknown>
+#3 0x5c3469aa621e <unknown>
+#4 0x5c3469ac3679 <unknown>
+#5 0x5c3469a9d863 <unknown>
+#6 0x5c3469a69ac8 <unknown>
+#7 0x5c3469a6ac31 <unknown>
+#8 0x5c3469f5218b <unknown>
+#9 0x5c3469f56112 <unknown>
+#10 0x5c3469f3f04c <unknown>
+#11 0x5c3469f56d04 <unknown>
+#12 0x5c3469f234bf <unknown>
+#13 0x5c3469f77528 <unknown>
+#14 0x5c3469f776f9 <unknown>
+#15 0x5c3469f87a66 <unknown>
+#16 0x7bfe11a9caa4 <unknown>
+#17 0x7bfe11b29c3c <unknown>
+
