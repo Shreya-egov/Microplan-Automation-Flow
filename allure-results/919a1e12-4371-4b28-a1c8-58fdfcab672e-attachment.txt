@@ -1,0 +1,77 @@
+Error selecting option: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x58456a766bea <unknown>
+#1 0x58456a2047d0 <unknown>
+#2 0x58456a20b53a <unknown>
+#3 0x58456a20dad8 <unknown>
+#4 0x58456a20db63 <unknown>
+#5 0x58456a25c999 <unknown>
+#6 0x58456a25a8f5 <unknown>
+#7 0x58456a257f92 <unknown>
+#8 0x58456a257687 <unknown>
+#9 0x58456a249c6d <unknown>
+#10 0x58456a27ba92 <unknown>
+#11 0x58456a2495ea <unknown>
+#12 0x58456a27bc5e <unknown>
+#13 0x58456a2a1d0c <unknown>
+#14 0x58456a27b863 <unknown>
+#15 0x58456a247ac8 <unknown>
+#16 0x58456a248c31 <unknown>
+#17 0x58456a73018b <unknown>
+#18 0x58456a734112 <unknown>
+#19 0x58456a71d04c <unknown>
+#20 0x58456a734d04 <unknown>
+#21 0x58456a7014bf <unknown>
+#22 0x58456a755528 <unknown>
+#23 0x58456a7556f9 <unknown>
+#24 0x58456a765a66 <unknown>
+#25 0x7c171bc9caa4 <unknown>
+#26 0x7c171bd29c3c <unknown>
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x58456a766bea <unknown>
+#1 0x58456a2047d0 <unknown>
+#2 0x58456a255cc0 <unknown>
+#3 0x58456a255e41 <unknown>
+#4 0x58456a2a4984 <unknown>
+#5 0x58456a27babd <unknown>
+#6 0x58456a2a1d0c <unknown>
+#7 0x58456a27b863 <unknown>
+#8 0x58456a247ac8 <unknown>
+#9 0x58456a248c31 <unknown>
+#10 0x58456a73018b <unknown>
+#11 0x58456a734112 <unknown>
+#12 0x58456a71d04c <unknown>
+#13 0x58456a734d04 <unknown>
+#14 0x58456a7014bf <unknown>
+#15 0x58456a755528 <unknown>
+#16 0x58456a7556f9 <unknown>
+#17 0x58456a765a66 <unknown>
+#18 0x7c171bc9caa4 <unknown>
+#19 0x7c171bd29c3c <unknown>
+
+Error accepting popup: Message: 
+Stacktrace:
+#0 0x58456a766bea <unknown>
+#1 0x58456a2047d0 <unknown>
+#2 0x58456a255cc0 <unknown>
+#3 0x58456a255e41 <unknown>
+#4 0x58456a2a4984 <unknown>
+#5 0x58456a27babd <unknown>
+#6 0x58456a2a1d0c <unknown>
+#7 0x58456a27b863 <unknown>
+#8 0x58456a247ac8 <unknown>
+#9 0x58456a248c31 <unknown>
+#10 0x58456a73018b <unknown>
+#11 0x58456a734112 <unknown>
+#12 0x58456a71d04c <unknown>
+#13 0x58456a734d04 <unknown>
+#14 0x58456a7014bf <unknown>
+#15 0x58456a755528 <unknown>
+#16 0x58456a7556f9 <unknown>
+#17 0x58456a765a66 <unknown>
+#18 0x7c171bc9caa4 <unknown>
+#19 0x7c171bd29c3c <unknown>
+

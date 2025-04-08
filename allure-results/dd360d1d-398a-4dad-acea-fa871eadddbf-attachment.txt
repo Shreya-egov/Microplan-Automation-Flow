@@ -1,0 +1,13 @@
+[32mINFO    [0m root:setupMicroplanQA.py:32 ***************Opening URL: https://unified-qa.digit.org/microplan-ui/employee/user/login*****************
+[32mINFO    [0m root:setupMicroplanQA.py:34 *****************Performing login actions*******************
+[32mINFO    [0m root:setupMicroplanQA.py:43 ***********Logging successful***************
+[32mINFO    [0m root:setupMicroplanQA.py:54 **********Microplan name initiated*****************
+[32mINFO    [0m root:setupMicroplanQA.py:62 ***************Selecting boundaries*****************
+[32mINFO    [0m root:setupMicroplanQA.py:74 *******Boundaries for Microplan are selected********
+[32mINFO    [0m root:setupMicroplanQA.py:80 ********Population excel uploaded successfully*******
+[32mINFO    [0m root:setupMicroplanQA.py:83 **********Facilities excel uploaded successfully***********
+[32mINFO    [0m root:setupMicroplanQA.py:100 *********Assumptions and estimations are successfully loaded********
+[32mINFO    [0m root:setupMicroplanQA.py:110 ***********Users tagged successfully*********
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x797261bd9580>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0de70c24e1fe9ce1af973ff98064d8e6
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x797261bd97f0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0de70c24e1fe9ce1af973ff98064d8e6
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x797261bd99a0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/0de70c24e1fe9ce1af973ff98064d8e6

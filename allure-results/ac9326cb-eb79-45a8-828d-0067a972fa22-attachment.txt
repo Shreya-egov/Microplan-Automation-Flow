@@ -1,0 +1,26 @@
+Error selecting option: Message: 
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x5b5e41f1abea <unknown>
+#1 0x5b5e419b87d0 <unknown>
+#2 0x5b5e41a09cc0 <unknown>
+#3 0x5b5e41a09e41 <unknown>
+#4 0x5b5e41a58984 <unknown>
+#5 0x5b5e41a2fabd <unknown>
+#6 0x5b5e41a55d0c <unknown>
+#7 0x5b5e41a2f863 <unknown>
+#8 0x5b5e419fbac8 <unknown>
+#9 0x5b5e419fcc31 <unknown>
+#10 0x5b5e41ee418b <unknown>
+#11 0x5b5e41ee8112 <unknown>
+#12 0x5b5e41ed104c <unknown>
+#13 0x5b5e41ee8d04 <unknown>
+#14 0x5b5e41eb54bf <unknown>
+#15 0x5b5e41f09528 <unknown>
+#16 0x5b5e41f096f9 <unknown>
+#17 0x5b5e41f19a66 <unknown>
+#18 0x78c6f8e9caa4 <unknown>
+#19 0x78c6f8f29c3c <unknown>
+
+Error accepting popup: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))

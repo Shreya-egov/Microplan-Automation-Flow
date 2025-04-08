@@ -28,7 +28,7 @@ class TestMPFlow:
         # self.campaignstrategy = (By.CSS_SELECTOR, 'body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)') 
        
         self.campaignstrategy = (By.CSS_SELECTOR, 'body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) > div:nth-child(1) > input:nth-child(1)') 
-        self.Bednetoption = (By.CSS_SELECTOR, 'body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1)')
+        self.Bednetoption = (By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)")
         self.H2Hoption = (By.CSS_SELECTOR, 'body > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > form:nth-child(3) > div:nth-child(1) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > div:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > span:nth-child(1)')
         self.nextbutton1 = (By.CLASS_NAME, "submit-bar")
         # self.nextbutton1 = (By.CSS_SELECTOR, "#root > div > div > div > div.main.digit-home-main > div.employee-app-wrapper.digit-home-app-wrapper > div > div > form > div.action-bar-wrap.actionBarClass.microplan-actionbar > button.submit-bar")
@@ -64,7 +64,7 @@ class TestMPFlow:
 
         #Assumptions
         self.next = (By.CLASS_NAME, 'digit-button-primary.large.previous-button')
-        self.together = (By.XPATH, '//*[@id="root"]/div/div/div/div[3]/div[1]/div/div/form/div[1]/div[2]/div/div/div[2]/div[2]/span')
+        self.together = (By.XPATH, '//*[@id="root"]/div/div/div/div[3]/div[1]/div/div/form/div[1]/div[2]/div/div/div[2]/div[1]/span')
         self.Genassump1 = (By.NAME, 'AVERAGE_PEOPLE_IN_A_HOUSEHOLD')
         self.Genassump2 = (By.NAME, 'NO_OF_BEDNETS_PER_BALE')
         self.Genassump3 = (By.NAME, 'NO_OF_PEOPLE_PER_BEDNET')

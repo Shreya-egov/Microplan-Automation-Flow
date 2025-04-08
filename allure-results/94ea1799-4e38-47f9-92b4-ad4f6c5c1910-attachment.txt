@@ -1,0 +1,48 @@
+Error selecting option: Message: 
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x653426e7bbea <unknown>
+#1 0x6534269197d0 <unknown>
+#2 0x65342696acc0 <unknown>
+#3 0x65342696ae41 <unknown>
+#4 0x6534269b9984 <unknown>
+#5 0x653426990abd <unknown>
+#6 0x6534269b6d0c <unknown>
+#7 0x653426990863 <unknown>
+#8 0x65342695cac8 <unknown>
+#9 0x65342695dc31 <unknown>
+#10 0x653426e4518b <unknown>
+#11 0x653426e49112 <unknown>
+#12 0x653426e3204c <unknown>
+#13 0x653426e49d04 <unknown>
+#14 0x653426e164bf <unknown>
+#15 0x653426e6a528 <unknown>
+#16 0x653426e6a6f9 <unknown>
+#17 0x653426e7aa66 <unknown>
+#18 0x79937169caa4 <unknown>
+#19 0x799371729c3c <unknown>
+
+Error accepting popup: Message: 
+Stacktrace:
+#0 0x653426e7bbea <unknown>
+#1 0x6534269197d0 <unknown>
+#2 0x65342696acc0 <unknown>
+#3 0x65342696ae41 <unknown>
+#4 0x6534269b9984 <unknown>
+#5 0x653426990abd <unknown>
+#6 0x6534269b6d0c <unknown>
+#7 0x653426990863 <unknown>
+#8 0x65342695cac8 <unknown>
+#9 0x65342695dc31 <unknown>
+#10 0x653426e4518b <unknown>
+#11 0x653426e49112 <unknown>
+#12 0x653426e3204c <unknown>
+#13 0x653426e49d04 <unknown>
+#14 0x653426e164bf <unknown>
+#15 0x653426e6a528 <unknown>
+#16 0x653426e6a6f9 <unknown>
+#17 0x653426e7aa66 <unknown>
+#18 0x79937169caa4 <unknown>
+#19 0x799371729c3c <unknown>
+

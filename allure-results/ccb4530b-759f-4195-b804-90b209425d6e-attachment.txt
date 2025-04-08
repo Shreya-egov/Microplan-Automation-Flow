@@ -1,0 +1,234 @@
+Error selecting option: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=134.0.6998.165); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf36f153a <unknown>
+#3 0x5dadf36f3ad8 <unknown>
+#4 0x5dadf36f3b63 <unknown>
+#5 0x5dadf373d8fe <unknown>
+#6 0x5dadf373ca88 <unknown>
+#7 0x5dadf373006d <unknown>
+#8 0x5dadf3761a92 <unknown>
+#9 0x5dadf372f5ea <unknown>
+#10 0x5dadf3761c5e <unknown>
+#11 0x5dadf3787d0c <unknown>
+#12 0x5dadf3761863 <unknown>
+#13 0x5dadf372dac8 <unknown>
+#14 0x5dadf372ec31 <unknown>
+#15 0x5dadf3c1618b <unknown>
+#16 0x5dadf3c1a112 <unknown>
+#17 0x5dadf3c0304c <unknown>
+#18 0x5dadf3c1ad04 <unknown>
+#19 0x5dadf3be74bf <unknown>
+#20 0x5dadf3c3b528 <unknown>
+#21 0x5dadf3c3b6f9 <unknown>
+#22 0x5dadf3c4ba66 <unknown>
+#23 0x7f41fcc9caa4 <unknown>
+#24 0x7f41fcd29c3c <unknown>
+
+Error setting campaign name: Message: 
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf373bcc0 <unknown>
+#3 0x5dadf373be41 <unknown>
+#4 0x5dadf378a984 <unknown>
+#5 0x5dadf3761abd <unknown>
+#6 0x5dadf3787d0c <unknown>
+#7 0x5dadf3761863 <unknown>
+#8 0x5dadf372dac8 <unknown>
+#9 0x5dadf372ec31 <unknown>
+#10 0x5dadf3c1618b <unknown>
+#11 0x5dadf3c1a112 <unknown>
+#12 0x5dadf3c0304c <unknown>
+#13 0x5dadf3c1ad04 <unknown>
+#14 0x5dadf3be74bf <unknown>
+#15 0x5dadf3c3b528 <unknown>
+#16 0x5dadf3c3b6f9 <unknown>
+#17 0x5dadf3c4ba66 <unknown>
+#18 0x7f41fcc9caa4 <unknown>
+#19 0x7f41fcd29c3c <unknown>
+
+Error accepting popup: Message: element click intercepted: Element <button class="digit-button-secondary large campaign-type-alert-button " type="button" title="Save and Proceed">...</button> is not clickable at point (826, 591). Other element would receive the click: <div>...</div>
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf3742a8c <unknown>
+#3 0x5dadf37408f5 <unknown>
+#4 0x5dadf373df92 <unknown>
+#5 0x5dadf373d687 <unknown>
+#6 0x5dadf373006d <unknown>
+#7 0x5dadf3761a92 <unknown>
+#8 0x5dadf372f5ea <unknown>
+#9 0x5dadf3761c5e <unknown>
+#10 0x5dadf3787d0c <unknown>
+#11 0x5dadf3761863 <unknown>
+#12 0x5dadf372dac8 <unknown>
+#13 0x5dadf372ec31 <unknown>
+#14 0x5dadf3c1618b <unknown>
+#15 0x5dadf3c1a112 <unknown>
+#16 0x5dadf3c0304c <unknown>
+#17 0x5dadf3c1ad04 <unknown>
+#18 0x5dadf3be74bf <unknown>
+#19 0x5dadf3c3b528 <unknown>
+#20 0x5dadf3c3b6f9 <unknown>
+#21 0x5dadf3c4ba66 <unknown>
+#22 0x7f41fcc9caa4 <unknown>
+#23 0x7f41fcd29c3c <unknown>
+
+Error adding NMP: Message: 
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf373bcc0 <unknown>
+#3 0x5dadf373be41 <unknown>
+#4 0x5dadf378a984 <unknown>
+#5 0x5dadf3761abd <unknown>
+#6 0x5dadf3787d0c <unknown>
+#7 0x5dadf3761863 <unknown>
+#8 0x5dadf372dac8 <unknown>
+#9 0x5dadf372ec31 <unknown>
+#10 0x5dadf3c1618b <unknown>
+#11 0x5dadf3c1a112 <unknown>
+#12 0x5dadf3c0304c <unknown>
+#13 0x5dadf3c1ad04 <unknown>
+#14 0x5dadf3be74bf <unknown>
+#15 0x5dadf3c3b528 <unknown>
+#16 0x5dadf3c3b6f9 <unknown>
+#17 0x5dadf3c4ba66 <unknown>
+#18 0x7f41fcc9caa4 <unknown>
+#19 0x7f41fcd29c3c <unknown>
+
+Error clicking dpp button: Message: element click intercepted: Element <button class="digit-button-primary large previous-button " type="button" title="Next">...</button> is not clickable at point (1722, 993). Other element would receive the click: <div class="digit-popup-overlay " tabindex="0">...</div>
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf3742a8c <unknown>
+#3 0x5dadf37408f5 <unknown>
+#4 0x5dadf373df92 <unknown>
+#5 0x5dadf373d687 <unknown>
+#6 0x5dadf372fc6d <unknown>
+#7 0x5dadf3761a92 <unknown>
+#8 0x5dadf372f5ea <unknown>
+#9 0x5dadf3761c5e <unknown>
+#10 0x5dadf3787d0c <unknown>
+#11 0x5dadf3761863 <unknown>
+#12 0x5dadf372dac8 <unknown>
+#13 0x5dadf372ec31 <unknown>
+#14 0x5dadf3c1618b <unknown>
+#15 0x5dadf3c1a112 <unknown>
+#16 0x5dadf3c0304c <unknown>
+#17 0x5dadf3c1ad04 <unknown>
+#18 0x5dadf3be74bf <unknown>
+#19 0x5dadf3c3b528 <unknown>
+#20 0x5dadf3c3b6f9 <unknown>
+#21 0x5dadf3c4ba66 <unknown>
+#22 0x7f41fcc9caa4 <unknown>
+#23 0x7f41fcd29c3c <unknown>
+
+Error clicking dpp button: Message: element click intercepted: Element <button class="digit-button-primary large previous-button " type="button" title="Next">...</button> is not clickable at point (1722, 993). Other element would receive the click: <div class="digit-popup-overlay " tabindex="0">...</div>
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf3742a8c <unknown>
+#3 0x5dadf37408f5 <unknown>
+#4 0x5dadf373df92 <unknown>
+#5 0x5dadf373d687 <unknown>
+#6 0x5dadf372fc6d <unknown>
+#7 0x5dadf3761a92 <unknown>
+#8 0x5dadf372f5ea <unknown>
+#9 0x5dadf3761c5e <unknown>
+#10 0x5dadf3787d0c <unknown>
+#11 0x5dadf3761863 <unknown>
+#12 0x5dadf372dac8 <unknown>
+#13 0x5dadf372ec31 <unknown>
+#14 0x5dadf3c1618b <unknown>
+#15 0x5dadf3c1a112 <unknown>
+#16 0x5dadf3c0304c <unknown>
+#17 0x5dadf3c1ad04 <unknown>
+#18 0x5dadf3be74bf <unknown>
+#19 0x5dadf3c3b528 <unknown>
+#20 0x5dadf3c3b6f9 <unknown>
+#21 0x5dadf3c4ba66 <unknown>
+#22 0x7f41fcc9caa4 <unknown>
+#23 0x7f41fcd29c3c <unknown>
+
+Error adding NPA: Message: element click intercepted: Element <div class="icon-label-container secondary large">...</div> is not clickable at point (1562, 445). Other element would receive the click: <div id="cell-6-undefined" data-column-id="6" role="cell" class="sc-fzXfOw sc-fzXfOx sc-fzXfOy fZeuVe rdt_TableCell" data-tag="allowRowEvents">...</div>
+  (Session info: chrome=134.0.6998.165)
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf3742a8c <unknown>
+#3 0x5dadf37408f5 <unknown>
+#4 0x5dadf373df92 <unknown>
+#5 0x5dadf373d687 <unknown>
+#6 0x5dadf372fc6d <unknown>
+#7 0x5dadf3761a92 <unknown>
+#8 0x5dadf372f5ea <unknown>
+#9 0x5dadf3761c5e <unknown>
+#10 0x5dadf3787d0c <unknown>
+#11 0x5dadf3761863 <unknown>
+#12 0x5dadf372dac8 <unknown>
+#13 0x5dadf372ec31 <unknown>
+#14 0x5dadf3c1618b <unknown>
+#15 0x5dadf3c1a112 <unknown>
+#16 0x5dadf3c0304c <unknown>
+#17 0x5dadf3c1ad04 <unknown>
+#18 0x5dadf3be74bf <unknown>
+#19 0x5dadf3c3b528 <unknown>
+#20 0x5dadf3c3b6f9 <unknown>
+#21 0x5dadf3c4ba66 <unknown>
+#22 0x7f41fcc9caa4 <unknown>
+#23 0x7f41fcd29c3c <unknown>
+
+Error clicking dpp button: Message: 
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf373bcc0 <unknown>
+#3 0x5dadf373be41 <unknown>
+#4 0x5dadf378a984 <unknown>
+#5 0x5dadf3761abd <unknown>
+#6 0x5dadf3787d0c <unknown>
+#7 0x5dadf3761863 <unknown>
+#8 0x5dadf372dac8 <unknown>
+#9 0x5dadf372ec31 <unknown>
+#10 0x5dadf3c1618b <unknown>
+#11 0x5dadf3c1a112 <unknown>
+#12 0x5dadf3c0304c <unknown>
+#13 0x5dadf3c1ad04 <unknown>
+#14 0x5dadf3be74bf <unknown>
+#15 0x5dadf3c3b528 <unknown>
+#16 0x5dadf3c3b6f9 <unknown>
+#17 0x5dadf3c4ba66 <unknown>
+#18 0x7f41fcc9caa4 <unknown>
+#19 0x7f41fcd29c3c <unknown>
+
+Screenshot saved at: ./Screenshots/createMicroplan_20250407-162618.png
+Error: Message: 
+Stacktrace:
+#0 0x5dadf3c4cbea <unknown>
+#1 0x5dadf36ea7d0 <unknown>
+#2 0x5dadf373bcc0 <unknown>
+#3 0x5dadf373be41 <unknown>
+#4 0x5dadf378a984 <unknown>
+#5 0x5dadf3761abd <unknown>
+#6 0x5dadf3787d0c <unknown>
+#7 0x5dadf3761863 <unknown>
+#8 0x5dadf372dac8 <unknown>
+#9 0x5dadf372ec31 <unknown>
+#10 0x5dadf3c1618b <unknown>
+#11 0x5dadf3c1a112 <unknown>
+#12 0x5dadf3c0304c <unknown>
+#13 0x5dadf3c1ad04 <unknown>
+#14 0x5dadf3be74bf <unknown>
+#15 0x5dadf3c3b528 <unknown>
+#16 0x5dadf3c3b6f9 <unknown>
+#17 0x5dadf3c4ba66 <unknown>
+#18 0x7f41fcc9caa4 <unknown>
+#19 0x7f41fcd29c3c <unknown>
+

@@ -1,0 +1,7 @@
+[32mINFO    [0m root:setupMicroplanQA.py:32 ***************Opening URL: https://unified-qa.digit.org/microplan-ui/employee/user/login*****************
+[32mINFO    [0m root:setupMicroplanQA.py:34 *****************Performing login actions*******************
+[32mINFO    [0m root:setupMicroplanQA.py:43 ***********Logging successful***************
+[32mINFO    [0m root:setupMicroplanQA.py:54 **********Microplan name initiated*****************
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7a34ed9409b0>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a8fcd57b075b2c655404b9d7463ce53f
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7a34ed940c80>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a8fcd57b075b2c655404b9d7463ce53f
+[33mWARNING [0m urllib3.connectionpool:connectionpool.py:868 Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7a34ed941550>: Failed to establish a new connection: [Errno 111] Connection refused')': /session/a8fcd57b075b2c655404b9d7463ce53f
