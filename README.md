@@ -51,6 +51,9 @@ You can install these dependencies by creating a virtual environment and install
 
 **Steps to Set Up**
 Clone the repository:
+1) Download Chromedriver as per your chrome version.
+2) Give the same path in conftest.py(inside testcases folder)
+3) In pageobjects - give population and facility file paths.(Files are uploaded for Demo env)
 
 git clone https://github.com/yourusername/Microplan-Automation-Flow.git
 cd Microplan-Automation-Flow
